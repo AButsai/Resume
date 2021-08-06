@@ -3,6 +3,121 @@
 @import "fonts";
 @import "global";
 
+.main {
+	width: 100%;
+	height: 100vh;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(232, 239, 240);
+}
+
+.container {
+	max-width: 900px;
+}
+
+.wrap {
+	display: flex;
+	flex-direction: row-reverse;
+	background-color: rgb(225, 233, 247);
+}
+
+.content {
+	max-width: 600px;
+	padding: 20px;
+}
+
+.title {
+	max-width: 350px;
+	&__name {
+		font-size: 40px;
+		text-align: center;
+	}
+	&__text {
+		font-size: 14px;
+		text-align: center;
+	}
+}
+
+.tech-skills {
+	&__title {
+		margin-top: 30px;
+		text-align: center;
+	}
+	&__title-span {
+		font-size: 8px;
+	}
+	&__items {
+		margin-top: 15px;
+	}
+	&__span {
+		color: rgb(94, 113, 182);
+	}
+}
+
+.soft-skills {
+	&__title {
+		margin-top: 30px;
+		text-align: center;
+	}
+	&__items {
+		margin-top: 15px;
+	}
+}
+
+.education {
+	&__title {
+		margin-top: 30px;
+		text-align: center;
+	}
+	&__items {
+		margin-top: 15px;
+	}
+}
+
+.about-me {
+	&__title {
+		margin-top: 30px;
+		text-align: center;
+	}
+	&__items {
+		margin-top: 15px;
+	}
+}
+
+.sidebar {
+	max-width: 300px;
+	padding: 20px;
+	background-color: rgb(135, 135, 149);
+}
+
+.images {
+	max-width: 250px;
+	max-height: 250px;
+	&__photo {
+		width: 250px;
+		display: block;
+	}
+}
+
+.contacts {
+	margin-top: 20px;
+	color: rgb(238, 236, 236);
+	&__title {
+		text-align: center;
+	}
+	&__items {
+		display: flex;
+		justify-content: space-around;
+		margin-top: 20px;
+	}
+	&__link-img {
+		width: 30px;
+		height: 30px;
+	}
+}
+
 
 
 
